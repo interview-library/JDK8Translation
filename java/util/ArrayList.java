@@ -141,7 +141,7 @@ public class ArrayList<E> extends AbstractList<E>
     private int size;
 
     /**
-     * Constructs an empty list with the specified initial capacity.
+     * 构造具有指定初始容量的空列表。
      *
      * @param  initialCapacity  the initial capacity of the list
      * @throws IllegalArgumentException if the specified initial capacity
@@ -159,7 +159,7 @@ public class ArrayList<E> extends AbstractList<E>
     }
 
     /**
-     * Constructs an empty list with an initial capacity of ten.
+     * 构造一个初始容量为10的空列表。
      */
     public ArrayList() {
         this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
